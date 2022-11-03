@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%); */
+    background: linear-gradient(-45deg, #ee7752, #875ffd, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        /* background: linear-gradient(-45deg, #2897ff, #f83adf, #1842cd, #317bca);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite; */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main{
+   background-color: #00BFFF;
+   margin:22px 0 0 20px;
+   height: 93vh;
+   width: 97vw;
+}
+
+.pic{
+        height: 60vh;
+        width: 20.7vw;
+        position: fixed;
+        background-color: white;
+        margin: 28px 0 0 10px;
+        padding: 20px 15px 0 15px;
+        border-radius: 30px;
+        
+        
+}
+.h{
+    margin-left: 20px;
+}
+li,.name,a{
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: none;
+    color:white;
+    list-style: none;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav{
+    margin-right: 70px;
+    font-size: 25px;
+}
+.nav li{
+    display: inline-block;
+    padding:0 20px;
+}
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover{
+    color:black;
+}
+ 
+
+.myname {
+    margin-left:725px;
+    margin-top: 120px;
+    margin-right:705px ;
+    height: 25vh;
+    width:20vw;
+    font-size: 45px;
+    color:#003366;
+    cursor: pointer;
+    font-family: cursive;
+    /* background-color: red; */
+}
+
+.myname h2{
+    margin-left:-142px;
+    
+}
+ 
+.footer{
+    width: 1241px;
+    height: 30px;
+    margin-top: 193px;
+    
+   
+    color:white;
+    background-color: #003366;
+    display: flex;
+    /* border-radius: 10px; */
+
+    
+}
+
+.con{ 
+     width: 143px;
+     height: 20px;
+     margin-left:460px;
+     padding-top:4px;
+    font-family: cursive;
+     /* background-color: red; */
+     
+
+}
+ 
+.icon1{
+    margin-left:9px;
+    
+    height: 8px;
+    /* background-color: black;*/
+}   
+.icon2 {
+    margin-left: 12px;
+    height: 10px;
+    /* background-color: black; */
+}
+.icon3{
+    margin-left: 10px;
+    height: 10px;
+    /* background-color: black; */
+}
+
+.educationinfo{
+    background-color:white;
+    border-radius: 10px;
+    margin-left:314px;
+    margin-top:23px;
+    margin-right: 8px;
+    height:77vh;
+}
+
+.edu{
+    font-family: cursive;
+    margin-left:30px;
+    padding-top:47px;
+    color: rgb(116, 116, 254);
+}
+
+table{
+    font-family: cursive;
+    /* border-collapse:collapse; */
+    border-color:rgb(116, 116, 254);
+    margin-top:52px;
+    margin-left:140px;
+    width: 756px;
+    height: 264px;
+
+
+}
+.projectinfo {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 314px;
+    margin-top: 23px;
+    margin-right: 8px;
+    height: 77vh;
+}
+
+.pro {
+    font-family: cursive;
+    margin-left: 30px;
+    padding-top: 12px;
+    color: rgb(116, 116, 254);
+}
+.box{
+    display: flex;
+}
+.pro1{
+    font-family: cursive;
+/* background-color: red; */
+width: 270px;
+margin-left:35px;
+margin-top:20px;
+/* display: flex; */
+}
+ button{
+    font-family: cursive;
+    margin-left:35px;
+    margin-top:20px;
+    /* color: cyan; */
+    border-radius: 4px;
+    padding:2px 3px 2px 3px;
+    border: lightblue;
+}
+
