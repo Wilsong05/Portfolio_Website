@@ -167,6 +167,11 @@ table{
 
 
 }
+
+td {
+    padding-left: 13px;
+}
+
 .projectinfo {
     background-color: white;
     border-radius: 10px;
